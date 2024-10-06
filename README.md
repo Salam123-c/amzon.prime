@@ -33,3 +33,20 @@ o	Each metric is analyzed to identify patterns and trends in the content library
 
 ## Dashboard
 <img width="608" alt="image" src="https://github.com/user-attachments/assets/1714cd35-8508-420d-9f17-d7264016c9a3">
+
+Project Insights:
+1.	Total Content Size:
+o	The platform boasts a massive library of 9,655 titles, which includes 519 unique titles across 25 total titles (possibly multiple variations/editions of the same content) and features contributions from 5,771 directors.
+2.	Content Ratings:
+o	The most common rating category is 13+ with 2,117 titles, followed by 16+ and ALL categories, each with more than 1,200 titles. This shows a focus on teen and general audience content, with substantial content available for mature audiences as well.
+3.	Popular Genres:
+o	Drama is the dominant genre, with 986 titles, followed by Comedy and other mixed genres like Drama, Suspense. This indicates that drama-related content is the most prevalent on the platform, with significant representation of light-hearted comedy as well.
+4.	Global Reach:
+o	The geographical heatmap suggests Prime Video’s content comes from various parts of the world, with North America and Europe contributing the largest share of titles.
+5.	Movies vs TV Shows:
+o	TV shows make up 80.82% of the content, with 1,850 movies (about 19.18%) in the library, highlighting Prime Video’s strong focus on TV series.
+6.	Content Growth Over Time:
+o	The content library has shown a significant upward trend, with an exponential increase in titles since the early 2000s, reflecting Prime Video’s rapid expansion in recent years.
+Final Conclusion:
+The dashboard offers a comprehensive overview of Prime Video’s content strategy, highlighting a vast and growing library with a significant focus on drama and family-oriented content. The platform also shows strong global diversity, pulling content from multiple regions worldwide, with a clear emphasis on TV shows over movies. Moreover, the steady growth of titles since 2000 suggests that Prime Video is rapidly expanding its offerings, adapting to a global audience’s changing tastes and demands.
+
