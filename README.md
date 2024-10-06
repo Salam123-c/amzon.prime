@@ -3,7 +3,7 @@
 The Prime Video dashboard offers a dynamic and interactive overview of the platform's content library, providing insights into various facets of its catalog. The dashboard is divided into several sections, each offering specific visualizations and metrics that help analyze Prime Video’s vast content collection. Below is a breakdown of the key components and features:
 
 ## Dataset used
-<a href="https://github.com/Salam123-c/amzon.prime/blob/main/amazon.info.pbix">amazon prime</a>
+
 
 
 ## Questions (KPIs)
@@ -19,3 +19,5 @@ o	Analysis of shows by country to illustrate content production diversity.
 o	The proportion of movies compared to TV shows in the library.
 6.	How has the content library grown over time?
 o	A timeline of content release by year to visualize the growth and trends.
+
+Dashboard Interaction <a href="https://github.com/Salam123-c/amzon.prime/blob/main/amazon.info.pbix">View Dashboard</a>
