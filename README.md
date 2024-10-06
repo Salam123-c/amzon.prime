@@ -22,3 +22,14 @@ o	The proportion of movies compared to TV shows in the library.
 o	A timeline of content release by year to visualize the growth and trends.
 
 Dashboard Interaction <a href="https://github.com/Salam123-c/amzon.prime/blob/main/amazon.info.pbix">View Dashboard</a>
+
+## Process
+1.	Data Collection:
+o	Data is gathered on all Prime Video titles, including ratings, genres, release years, and geographical data.
+2.	Data Visualization:
+o	A dashboard is developed to present the data visually, using bar charts for ratings and genres, pie charts for content types, and a geographical heatmap for shows by country. A timeline chart is used to demonstrate content release trends.
+3.	Analysis:
+o	Each metric is analyzed to identify patterns and trends in the content library. The data is sliced into various dimensions such as genres, countries, and types of content to uncover deeper insights.
+
+## Dashboard
+<img width="608" alt="image" src="https://github.com/user-attachments/assets/1714cd35-8508-420d-9f17-d7264016c9a3">
