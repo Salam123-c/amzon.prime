@@ -1,53 +1,87 @@
-# Data analyst project (Interactive project using Power BI)
-## Project objective
-The Prime Video dashboard offers a dynamic and interactive overview of the platform's content library, providing insights into various facets of its catalog. The dashboard is divided into several sections, each offering specific visualizations and metrics that help analyze Prime Video’s vast content collection. Below is a breakdown of the key components and features:
+# 📊 Prime Video Content Analytics Dashboard
+> An interactive Power BI dashboard uncovering how Prime Video's global content library breaks down by rating, genre, geography, format, and growth over time.
 
-## Dashboard
+This project turns a raw Prime Video titles dataset into a fully interactive Power BI dashboard — combining data cleaning, DAX-driven KPIs, and multi-dimensional visual analysis (bar charts, pie charts, geo heatmaps, and timeline trends) to answer six core business questions about the platform's content strategy.
 
-<img width="608" alt="image" src="https://github.com/user-attachments/assets/1714cd35-8508-420d-9f17-d7264016c9a3">
+---
 
-<a href="https://github.com/Salam123-c/amzon.prime/blob/main/amazon_prime_titles.csv">
+## 🖼️ Dashboard Preview
 
+<img width="608" alt="Prime Video Dashboard" src="https://github.com/user-attachments/assets/1714cd35-8508-420d-9f17-d7264016c9a3">
 
+📂 [View Raw Dataset](https://github.com/Salam123-c/amzon.prime/blob/main/amazon_prime_titles.csv) · 📊 [View Power BI File](https://github.com/Salam123-c/amzon.prime/blob/main/amazon.info.pbix)
 
+---
 
-## Questions (KPIs)
-1.	What is the total size of Prime Video’s content library?
-o	A detailed breakdown of the total number of titles, shows, movies, and directors.
-2.	What is the distribution of content ratings?
-o	The different categories of content ratings and how titles are distributed across them (13+, 16+, etc.).
-3.	Which genres are the most prevalent in the Prime Video library?
-o	A breakdown of genres by the number of titles in each.
-4.	What is the geographical spread of Prime Video’s content?
-o	Analysis of shows by country to illustrate content production diversity.
-5.	What is the distribution of movies v/s TV shows?
-o	The proportion of movies compared to TV shows in the library.
-6.	How has the content library grown over time?
-o	A timeline of content release by year to visualize the growth and trends.
+## 📌 Business Scenario & Objective
 
-Dashboard Interaction <a href="https://github.com/Salam123-c/amzon.prime/blob/main/amazon.info.pbix">View Dashboard</a>
+Prime Video's content library spans thousands of titles across genres, ratings, countries, and formats — making it hard to see the platform's content strategy at a glance.
 
-## Process
-1.	Data Collection:
-o	Data is gathered on all Prime Video titles, including ratings, genres, release years, and geographical data.
-2.	Data Visualization:
-o	A dashboard is developed to present the data visually, using bar charts for ratings and genres, pie charts for content types, and a geographical heatmap for shows by country. A timeline chart is used to demonstrate content release trends.
-3.	Analysis:
-o	Each metric is analyzed to identify patterns and trends in the content library. The data is sliced into various dimensions such as genres, countries, and types of content to uncover deeper insights.
+**Goal:** Clean and structure the raw titles dataset, build KPIs answering six key content-strategy questions, and design an interactive dashboard that lets stakeholders slice the library by genre, rating, country, and release year.
 
+---
 
-Project Insights:
-1.	Total Content Size:
-o	The platform boasts a massive library of 9,655 titles, which includes 519 unique titles across 25 total titles (possibly multiple variations/editions of the same content) and features contributions from 5,771 directors.
-2.	Content Ratings:
-o	The most common rating category is 13+ with 2,117 titles, followed by 16+ and ALL categories, each with more than 1,200 titles. This shows a focus on teen and general audience content, with substantial content available for mature audiences as well.
-3.	Popular Genres:
-o	Drama is the dominant genre, with 986 titles, followed by Comedy and other mixed genres like Drama, Suspense. This indicates that drama-related content is the most prevalent on the platform, with significant representation of light-hearted comedy as well.
-4.	Global Reach:
-o	The geographical heatmap suggests Prime Video’s content comes from various parts of the world, with North America and Europe contributing the largest share of titles.
-5.	Movies vs TV Shows:
-o	TV shows make up 80.82% of the content, with 1,850 movies (about 19.18%) in the library, highlighting Prime Video’s strong focus on TV series.
-6.	Content Growth Over Time:
-o	The content library has shown a significant upward trend, with an exponential increase in titles since the early 2000s, reflecting Prime Video’s rapid expansion in recent years.
-Final Conclusion:
-The dashboard offers a comprehensive overview of Prime Video’s content strategy, highlighting a vast and growing library with a significant focus on drama and family-oriented content. The platform also shows strong global diversity, pulling content from multiple regions worldwide, with a clear emphasis on TV shows over movies. Moreover, the steady growth of titles since 2000 suggests that Prime Video is rapidly expanding its offerings, adapting to a global audience’s changing tastes and demands.
+## ❓ Key Business Questions (KPIs)
+
+| # | Question | What It Reveals |
+| :--- | :--- | :--- |
+| 1 | What is the total size of Prime Video's content library? | Overall scale — total titles, shows, movies, and directors |
+| 2 | What is the distribution of content ratings? | Audience-maturity mix (13+, 16+, ALL, etc.) |
+| 3 | Which genres are most prevalent? | Content-strategy focus by genre |
+| 4 | What is the geographical spread of content? | Global production diversity |
+| 5 | What is the split between movies vs TV shows? | Format strategy |
+| 6 | How has the library grown over time? | Expansion trend and momentum |
+
+---
+
+## 📈 Key Findings
+
+| Metric | Value | Insight |
+| :--- | :--- | :--- |
+| **Total Titles** | 9,655 | Full scale of the Prime Video content library |
+| **Unique Titles** | 519 (across 25 total title variants) | Multiple editions/versions exist for some titles |
+| **Directors Represented** | 5,771 | Breadth of creative contribution across the catalog |
+| **Top Rating Category** | 13+ (2,117 titles) | Platform skews toward teen-and-above audiences |
+| **Top Genre** | Drama (986 titles) | Drama is the dominant content pillar, followed by Comedy |
+| **Movies vs TV Shows** | 19.18% Movies / 80.82% TV Shows | Strong strategic tilt toward TV series over films |
+| **Top Contributing Regions** | North America & Europe | Largest share of content originates from these regions |
+
+> **Key Insight:** With TV shows making up over **80% of the library**, Prime Video's content strategy is clearly weighted toward episodic series rather than films — a signal of investment in long-form audience retention over one-off viewing.
+
+> **Key Insight:** Ratings data shows **13+, 16+, and ALL categories each exceeding 1,200+ titles**, indicating deliberate coverage of both teen and general-audience segments rather than a single target demographic.
+
+---
+
+## ⚙️ Process & Methodology
+
+**1. Data Collection**
+Gathered title-level data across ratings, genres, release years, countries, and content type (movie/TV show).
+
+**2. Data Visualization**
+- **Bar charts** — ratings and genre distribution
+- **Pie charts** — movies vs TV shows split
+- **Geo heatmap** — content volume by country
+- **Timeline chart** — content release trend by year
+
+**3. Analysis**
+Sliced the dataset across genre, country, and content-type dimensions to surface patterns beyond simple totals — e.g. format strategy (movies vs shows) and regional production concentration.
+
+---
+
+## 🚀 Content Growth Trend
+
+> The library shows an **exponential increase in titles since the early 2000s**, reflecting Prime Video's rapid and sustained expansion as it scaled to meet growing global demand.
+
+---
+
+## 🏁 Conclusion
+
+The dashboard gives a comprehensive view of Prime Video's content strategy: a large and fast-growing library, heavily weighted toward **Drama** and **TV shows**, with production diversity spanning multiple global regions. The steady rise in titles since 2000 signals an actively expanding platform adapting to evolving audience preferences.
+
+---
+
+## 📁 Repository Files
+
+* 📊 `amazon_prime_titles.csv`: Raw Prime Video titles dataset
+* 📈 `amazon.info.pbix`: Power BI file with full interactive dashboard
+* 📝 `README.md`: Project overview, KPIs, and key insights
