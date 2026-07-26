@@ -2,6 +2,9 @@
 ## Project objective
 The Prime Video dashboard offers a dynamic and interactive overview of the platform's content library, providing insights into various facets of its catalog. The dashboard is divided into several sections, each offering specific visualizations and metrics that help analyze Prime Video’s vast content collection. Below is a breakdown of the key components and features:
 
+## Dashboard
+
+<img width="608" alt="image" src="https://github.com/user-attachments/assets/1714cd35-8508-420d-9f17-d7264016c9a3">
 ## Dataset used
 <a href="https://github.com/Salam123-c/amzon.prime/blob/main/amazon_prime_titles.csv">Data Set</a>
 
@@ -31,8 +34,6 @@ o	A dashboard is developed to present the data visually, using bar charts for ra
 3.	Analysis:
 o	Each metric is analyzed to identify patterns and trends in the content library. The data is sliced into various dimensions such as genres, countries, and types of content to uncover deeper insights.
 
-## Dashboard
-<img width="608" alt="image" src="https://github.com/user-attachments/assets/1714cd35-8508-420d-9f17-d7264016c9a3">
 
 Project Insights:
 1.	Total Content Size:
