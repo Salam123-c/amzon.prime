@@ -7,7 +7,7 @@ The Prime Video dashboard offers a dynamic and interactive overview of the platf
 <img width="608" alt="image" src="https://github.com/user-attachments/assets/1714cd35-8508-420d-9f17-d7264016c9a3">
 ## Dataset used
 <a href="https://github.com/Salam123-c/amzon.prime/blob/main/amazon_prime_titles.csv">
-Data Set</a>
+
 
 
 
